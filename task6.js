@@ -25,5 +25,5 @@ function passGenerator(length) {
     return password
 }
 
-const password = passGenerator(12);
+const password = passGenerator(10);
 console.log(password)

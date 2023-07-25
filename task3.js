@@ -1,4 +1,4 @@
-const arr = [3, 5, 2, 5, 3, 3, 1, 4, 5];
+const arr = [5, 2, 5, 3, 3, 1, 4, 5];
 
 function frequentNumberFinder(array) {
     const frequencyCheck = {};

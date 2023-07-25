@@ -15,8 +15,6 @@ function romanToInteger(roman) {
     for (let i = 0; i < roman.length; i++) {
         const currentChar = roman[i].toUpperCase();
         const currentValue = romanNumerals[currentChar];
-
-        console.log(currentValue, prevValue)
         if (currentValue > prevValue) {
             result = currentValue - prevValue;
         } else {
@@ -29,6 +27,6 @@ function romanToInteger(roman) {
     return result;
 }
 
-const romanNumeral = "iv";
+const romanNumeral = "v";
 
 console.log(romanToInteger(romanNumeral));
