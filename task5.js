@@ -11,5 +11,5 @@ function calculator(num1, num2, operator) {
 }
 
 
-const result = calculator(10, 2, "/");
+const result = calculator(10, 2, "*");
 console.log(result); 
